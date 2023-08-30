@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Home</h1>
-    <p>Welcome to AirIndia Booking</p>
+    <p>Introducing SkyWings - Your Gateway to Seamless Travel Experiences!
+
+        At SkyWings, we're not just a flight booking company; we're your travel companions, dedicated to making your journey from dream to reality as smooth as possible. Our passion for exploration, combined with our commitment to cutting-edge technology, has led us to create a platform that redefines how you plan and embark on your travels. Whether you're jetting off for business, seeking new adventures, or reuniting with loved ones, SkyWings is here to elevate your travel experience from the moment you start planning.
+        
+        With an extensive network of airlines, destinations, and options, we empower you to tailor your travels to your unique preferences. Our user-friendly interface ensures that browsing, comparing, and selecting flights is a breeze, putting you in control of your itinerary. But SkyWings is more than just a booking platform - it's a promise of reliability, a commitment to customer service, and a gateway to a world of exploration.
+        
+        Join us on a journey where your travel aspirations meet practicality, where your wanderlust is nurtured by seamless technology, and where your satisfaction is our top priority. Welcome to SkyWings, where your travel dreams take flight.</p>
+   <em>
     <p>Book your Tickets here and Choose Destination where you want to fly</p>
+
+   </em> 
+ <em>
     <p>We can find cheapest ticket for your destination   </p>
+
+ </em>   
     
     <div id="review">
 <table>
@@ -85,20 +102,144 @@
 
 </table>
     
-<form action="">
+<form action="" id="book">
     <h2>
         Book Your Flights Here
     </h2>
     <label for="">From</label>
-    <input type="text" name="" id="" placeholder="Enter Your City">
+    <select name="" id="">
+        <option value="">Select</option>
+        <option value="">Goa</option>
+        <option value="">Hyderabad</option>
+        <option value="">USA</option>
+        <option value="">NewYork</option>
+    </select>
     <span>&nbsp; &nbsp;</span>
     <label for="">To</label>
-    <input type="text" id="Enter the Destination you wnt ot enter">
+    <select name="" id="">
+        <option value="">Select</option>
+        <option value="">Goa</option>
+        <option value="">Hyderabad</option>
+        <option value="">USA</option>
+        <option value="">NewYork</option>
+    </select>
+    
     <span>&nbsp; &nbsp;</span>
     <label for="">Date</label>
    <input type="date">
+   <span>&nbsp; &nbsp;</span>
+<br>
+<br>
+   
+   <label for="">Number Of Adults</label>
+   <input type="number">
+   <span>&nbsp; &nbsp;</span>
+   <label for="">Number Of Children (Child under 18 years)</label>
+   <input type="number"placeholder="Do not fill if they aren't any" >
+   <br>
+   <br>
+   <label for="">Choose your Class</label>
+   <select name="" id="">
+    <option value="">Select</option>
+    <option value="">Bussiness Class </option>
+    <option value="">Economic Class</option>
+    <option value="">General</option>
+   </select>
+   <br><br>
+   <label for="price">Price Range</label>
+   <input type="range" min="0" max="3000" name="price"> 
+   <br><br>
     <button>Submit</button>
 </form>
+<table >
+<caption>Flight Timings</caption>
+<tr >
+    <th>Flight Name</th>
+    <th> Status</th>
+    <th>Departure</th>
+    <th>Arrival</th>
+</tr>
+<tr>
+    <td>
+        Indigo
+    </td>
+    <td>
+        OnCourse
+    </td>
+    <td>
+        8:30
+    </td>
+    <td>
+        12:30
+    </td>
+</tr>
+<tr>
+    <td>
+        SpiceJet
+    </td>
+    <td>
+        OnCourse
+    </td>
+    <td>
+        7:30
+    </td>
+    <td>
+        9:30
+    </td>
+</tr>
+<tr>
+    <td>
+        Emirates
+    </td>
+    <td>
+        OnCourse
+    </td>
+    <td>
+        7:30
+    </td>
+    <td>
+        9:30
+    </td>
+</tr>
+</table>
+<h2>About Us</h2>
+<p>
+    At SkyWings, we take pride in revolutionizing the way you book flights. Our mission is to offer you a top-notch flight booking experience that combines convenience, efficiency, and reliability. With a passion for travel and a deep understanding of your needs, we have crafted a user-friendly platform that puts the world at your fingertips. Whether you're planning a business trip or a dream vacation, we are here to make your journey seamless from start to finish.
+</p>
+<h2>Contact Us</h2>
+<p>
+    Email: support@skywings.com
+</p>
+<h2>
+    Our Destinations
+ </h2>
+<ul>
+    <li>New York</li>
+    <li>Goa</li>
+    <li>
+        Paris
+    </li>
+</ul>
+<p>You can also travel many places Using our site  just explore our page <a href="#book">Book section</a></p>
+
+Thank you for choosing SkyWings as your preferred flight booking partner. Your journey is our priority.
+
+</p>
+<h2>
+    FAQ </h2>
+
+<h3>
+    How do I book a flight on SkyWings?
+</h3>
+<p>
+    Booking a flight with SkyWings is easy! Simply visit our website at www.skywings.com and enter your departure and destination cities, travel dates, and the number of passengers. Our system will then display a range of flight options for you to choose from. Select your preferred flights, enter passenger details, and proceed to payment to confirm your booking.
+</p>
+<h3>
+     Can I make changes to my booking after it's confirmed?
+</h3>
+<p>
+    Yes, you can! We understand that plans can change. Depending on the airline's policies, you may be able to modify your booking. Log in to your SkyWings account, go to the "Manage Bookings" section, and follow the prompts to make changes. Please note that some changes may incur fees.
+</p>
 
 
 </body>
